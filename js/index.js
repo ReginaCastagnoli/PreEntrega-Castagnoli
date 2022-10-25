@@ -38,7 +38,7 @@ do {
 
     flag = prompt(`Quiere comprar otro producto? Y/N`);
     console.log("flag", flag);
-} while (flag != 'N');
+} while (flag == 'Y');
 
 
 
